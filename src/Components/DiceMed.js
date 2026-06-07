@@ -7,6 +7,13 @@ import annaImage from "../Assets/anna.jpg";
 import drImage from "../Assets/dr.png";
 import mituImage from "../Assets/mitu.jpg";
 import deepanshuImage from "../Assets/my pic of google.jpeg";
+import MeenakshiImg from "../Assets/MeenakshiImg.jpg";
+import GopiImg from "../Assets/GopiImg.jpg";
+import NandanaImg from "../Assets/NandanaImg.jpg";
+import NeenaImg from "../Assets/NeenaImg.png";
+import AshishImg from "../Assets/AshishImg.jpg";
+import SidharthImg from "../Assets/SidharthImg.jpg";
+import RahulImg from "../Assets/RahulImg.jpg";
 import manuImage from "../Assets/manu.png";
 import sadhvikImage from "../Assets/sadvik.jpg";
 import abiyaImage from "../Assets/george.jpg";
@@ -22,7 +29,7 @@ import newsImg8 from "../Assets/ieee.png"
 import YohannImg from "../Assets/Yohann1.png";
 import GadhaImg from "../Assets/Gadha.png";
 import JoelImg from "../Assets/Joel.png";
-import NehaImg from "../Assets/Neha.webp";
+import NehaImg from "../Assets/NehaImg.png";
 import NikhilImg from "../Assets/Nikhil.png";
 import sachinImg from "../Assets/Sachin.png";
 import newsImg9 from "../Assets/anesthetic.jpg"
@@ -836,7 +843,31 @@ const copyAPA = (paper) => {
                 doi: "https://ieeexplore.ieee.org/document/11136014",
                 pdf: "https://ieeexplore.ieee.org/document/11136014", // if you have a PDF link you can fill it
                 note: "Explainable AI • Oral Cancer "
-              }              
+              },
+              {
+                title:
+                  "Landmark-Guided Geometric Warping and GAN Refinement for Controllable and Explainable Cephalometric Profile Transformation",
+                year: 2026,
+                venue: "Electronic Letters on Computer Vision and Image Analysis (ELCVIA)",
+                authors: "G. Lekshmi, G. Arun, A. B. George, A. A. Sekh",
+                type: "Journal Article",
+                status: "Accepted",
+                doi: "",
+                pdf: "",
+                note: "Computer Vision • Medical Image Analysis • Explainable AI • GANs",
+              },
+              {
+                title:
+                  "Explainable Machine Learning Analysis of Medicine Pricing and Life Expectancy Across Countries",
+                year: 2026,
+                venue: "",
+                authors: "G. Arun, A. B. George, M. Arif",
+                type: "Journal Article",
+                status: "Accepted",
+                doi: " https://govind02677142154f-rkljs-studio.wp.build/medicine-price-dashboard/",
+                pdf: "",
+                note: "Explainable AI • Machine Learning • Healthcare Analytics",
+              }, 
             ];
 
             const statusColors = {
@@ -1340,11 +1371,19 @@ const copyAPA = (paper) => {
               },
               {
                 name: "Yohann Chandy",
-                role: "CEO Intern",
+                role: "Former CEO Intern",
                 image: YohannImg,
                 linkedin:
                   "https://www.linkedin.com/in/yohannchandy",
                 tags: ["Leadership", "Strategy", "Innovation"],
+              },
+              {
+                name: "Nikhil K",
+                role: "CEO Associate",
+                image: NikhilImg,
+                linkedin:
+                  "https://www.linkedin.com/in/nikhil-k-a09377235/",
+                tags: ["Leadership", "Strategy",],
               },
               {
                 name: "Gadha Lekshmi P",
@@ -1355,12 +1394,36 @@ const copyAPA = (paper) => {
                 tags: ["Deep Learning", "Medical Imaging", "AI Diagnostics"],
               },
               {
+                name: "Dr Neena S Nair ",
+                role: "Clinical AI Associate",
+                image: NeenaImg,
+                linkedin:
+                  "https://www.linkedin.com/in/dr-neena-s-nair-359a292a7/",
+                tags: ["Multimodal AI", "AI Diagnostics"],
+              },
+              {
                 name: "Neha Ann Binoy",
                 role: "Jr. Software Developer",
                 image: NehaImg,
                 linkedin:
                   "https://www.linkedin.com/in/neha-ann-binoy-nab/",
                 tags: ["Full-Stack", "AI Integration"],
+              },
+              {
+                name: "Ashish Abraham",
+                role: "ML Expert",
+                image: AshishImg,
+                linkedin:
+                  "https://www.linkedin.com/in/ashish-abraham-811a23201/",
+                tags: ["Machine Learning"],
+              },
+              {
+                name: "Sidharth N Krishna ",
+                role: "Deep Learning Expert",
+                image: SidharthImg,
+                linkedin:
+                  "https://www.linkedin.com/in/sidharth-krishna25/",
+                tags: ["Deep Learning"],
               },
               
             ];
@@ -1382,27 +1445,12 @@ const copyAPA = (paper) => {
                 tags: ["Clinical"],
               },
               {
-                name: "Athul",
+                name: "Athul Anoop",
                 role: "ML Intern",
                 image: athulImage,
                 linkedin:
                   "https://www.linkedin.com/in/athul-anoop-a85068281/",
-                tags: ["Intern"],
-              },
-              {
-                name: "Nikhil K",
-                role: "Mechanical Engineering Trainee",
-                image: NikhilImg,
-                linkedin:
-                  "https://www.linkedin.com/in/nikhil-k-a09377235/",
-                tags: [""],
-              },
-              {
-                name: "Pranav",
-                role: "ML Intern",
-                image: pranavImage,
-                linkedin: "http://www.linkedin.com/in/s-pranav-s",
-                tags: ["Intern"],
+                tags: ["ML"],
               },
               {
                 name: "Joel Varghese Oommen",
@@ -1412,6 +1460,44 @@ const copyAPA = (paper) => {
                   "https://www.linkedin.com/in/joel-oommen-63bb89271/",
                 tags: ["Cognitive Healthcare","AI Innovation"],
               },
+              {
+                name: "Pranav",
+                role: "ML Intern",
+                image: pranavImage,
+                linkedin: "http://www.linkedin.com/in/s-pranav-s",
+                tags: ["Intern"],
+              },
+              {
+                name: "Gopi Krishnan R",
+                role: "ML Intern",
+                image: GopiImg,
+                linkedin:
+                  "https://www.linkedin.com/in/gopi-krishnan-r-b51084325/",
+                tags: ["ML"],
+              },
+              {
+                name: "Meenakshi R",
+                role: "IoT Intern",
+                image: MeenakshiImg,
+                linkedin: "https://www.linkedin.com/in/meenakshir5096/",
+                tags: ["IoT"],
+              },
+              {
+                name: "Nandana Sankar J",
+                role: "Multimodal AI Intern",
+                image: NandanaImg,
+                linkedin: "https://www.linkedin.com/in/nandana-sankar-j/",
+                tags: ["Multimodal AI"],
+              },
+              {
+                name: "Rahul A",
+                role: "ML Intern",
+                image: RahulImg,
+                linkedin:
+                  "https://www.linkedin.com/in/rahul-a-8b6849291/",
+                tags: ["ML"],
+              },
+              
             ];
 
             return (
