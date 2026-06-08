@@ -1394,14 +1394,6 @@ const copyAPA = (paper) => {
                 tags: ["Deep Learning", "Medical Imaging", "AI Diagnostics"],
               },
               {
-                name: "Dr Neena S Nair ",
-                role: "Clinical AI Associate",
-                image: NeenaImg,
-                linkedin:
-                  "https://www.linkedin.com/in/dr-neena-s-nair-359a292a7/",
-                tags: ["Multimodal AI", "AI Diagnostics"],
-              },
-              {
                 name: "Neha Ann Binoy",
                 role: "Jr. Software Developer",
                 image: NehaImg,
@@ -1488,6 +1480,14 @@ const copyAPA = (paper) => {
                 image: NandanaImg,
                 linkedin: "https://www.linkedin.com/in/nandana-sankar-j/",
                 tags: ["Multimodal AI"],
+              },
+              {
+                name: "Dr Neena S Nair ",
+                role: "Clinical AI Associate",
+                image: NeenaImg,
+                linkedin:
+                  "https://www.linkedin.com/in/dr-neena-s-nair-359a292a7/",
+                tags: ["Multimodal AI", "AI Diagnostics"],
               },
               {
                 name: "Rahul A",
